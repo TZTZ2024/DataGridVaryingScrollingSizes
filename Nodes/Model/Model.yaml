@@ -1,0 +1,26 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: VarIncrement
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarInteger
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 19
+- Name: VarString
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Hello There!"
+- Name: VarBool
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: VarHeight
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 310
+- Name: VarQuery
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM Table1 ORDER BY Timestamp"
